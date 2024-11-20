@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de Física</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="main3.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Bienvenido al Examen de Física</h1>
+        <p>El examen consta de 5 preguntas de selección múltiple. Selecciona la respuesta que consideres correcta. La nota aprobatoria es del 60% (3 de 5 respuestas correctas). ¡Mucha suerte!</p>
+    </header>
+
+    <main class="main-content">
+        <form id="formularioExamen">
+            <!-- Pregunta 1 -->
+            <section id="pregunta">
+                <h2>Pregunta 1: ¿Cuál es la unidad del trabajo en el Sistema Internacional?</h2>
+                <div class="option">
+                    <input type="radio" id="opcion1-1" name="trabajo" value="joule">
+                    <label for="opcion1-1">Joule (J)</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="opcion1-2" name="trabajo" value="newton">
+                    <label for="opcion1-2">Newton (N)</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="opcion1-3" name="trabajo" value="pascal">
+                    <label for="opcion1-3">Pascal (Pa)</label>
+                </div>
+            </section>
+
+            <!-- Pregunta 2 -->
+            <section id="pregunta">
+                <h2>Pregunta 2: ¿Qué describe la primera ley de Newton?</h2>
+                <div class="option">
+                    <input type="radio" id="opcion2-1" name="leyes" value="inercia">
+                    <label for="opcion2-1">La inercia de un objeto</label>
+                </div>
+                <div class="option"> 
+                    <input type="radio" id="opcion2-2" name="leyes" value="accion-reaccion">
+                    <label for="opcion2-2">Acción y reacción</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="opcion2-3" name="leyes" value="fuerza-aceleracion">
+                    <label for="opcion2-3">Relación entre fuerza y aceleración</label>
+                </div>
+            </section>
+
+            <!-- Pregunta 3 -->
+            <section id="pregunta">
+                <h2>Pregunta 3: ¿Cuál es la fórmula de la velocidad?</h2>
+                <div class="option"> 
+                    <input type="radio" id="opcion3-1" name="velocidad" value="d-t">
+                    <label for="opcion3-1">v = d / t</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="opcion3-2" name="velocidad" value="t-d">
+                    <label for="opcion3-2">v = t / d</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="opcion3-3" name="velocidad" value="dxt">
+                    <label for="opcion3-3">v = d × t</label>
+                </div>
+            </section>
+
+            <!-- Pregunta 4 -->
+            <section id="pregunta">
+                <h2>Pregunta 4: ¿Qué indica el peso de un objeto?</h2>
+                <div class="option">
+                    <input type="radio" id="opcion4-1" name="peso" value="masa">
+                    <label for="opcion4-1">Su masa</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="opcion4-2" name="peso" value="fuerza-gravitacional">
+                    <label for="opcion4-2">La fuerza gravitacional sobre él</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="opcion4-3" name="peso" value="volumen">
+                    <label for="opcion4-3">Su volumen</label>
+                </div>
+            </section>
+
+            <!-- Pregunta 5 -->
+            <section id="pregunta">
+                <h2>Pregunta 5: ¿Qué fenómeno explica que un barco flote en el agua?</h2>
+                <div class="option">
+                    <input type="radio" id="opcion5-1" name="flotacion" value="presion">
+                    <label for="opcion5-1">La presión atmosférica</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="opcion5-2" name="flotacion" value="principio-arquimedes">
+                    <label for="opcion5-2">El principio de Arquímedes</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="opcion5-3" name="flotacion" value="gravedad">
+                    <label for="opcion5-3">La gravedad terrestre</label>
+                </div>
+            </section>
+        </form>
+    </main>
+            <!-- Botón para enviar respuestas -->
+            <footer class="footer">
+                <button id="submit" type="button" class="submit-button">Enviar</button>
+            </footer>
+
+</body>
+</html>

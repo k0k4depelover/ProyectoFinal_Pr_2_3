@@ -1,0 +1,100 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+    color: #4c6faf;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+.header {
+    background-color: #4c6faf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #4c6faf;
+}
+
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Contenido principal */
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.option {
+    margin-bottom: 20px; /* Espaciado entre las opciones */
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; /* Cambio de flex a block */
+    color: #333;
+
+}
+
+.option:hover {
+    background-color: #e9f9e9;
+}
+
+.option input {
+    margin-right: 10px;
+}
+
+/* Botón */
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #4c6faf;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #4c6faf;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+    background: #f4f4f4;
+}
+
+::-webkit-scrollbar{
+    width: 18px;
+    line-height: 40px;
+}
+
+::-webkit-scrollbar-track{
+    background: #333;
+}
+::-webkit-scrollbar-thumb{
+    background: #4c6faf;
+}
